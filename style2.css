@@ -1,0 +1,39 @@
+.container {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+* {
+	background-color: rgba(34, 102, 102, 0.2);
+}
+
+div.back {
+	background-image: url(hh.jpg);
+}
+
+h1, h2 {
+font-size:50px;
+font-family: fantasy;
+text-align: center;
+color:grey;
+text-shadow: 5px 5px 3px pink;
+border: 8px double pink;
+width:450px;
+margin: auto;
+padding: 20px;
+} 
+
+img {
+	width:450px;
+	height:300px;
+	margin:10px;
+	transition: all 1s;
+} 
+img:hover {
+	transform: rotateX(130deg);
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}

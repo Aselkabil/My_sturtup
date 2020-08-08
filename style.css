@@ -1,0 +1,90 @@
+
+body {
+	color:#C2C79B;
+	background-image: url(123.jpg);
+	background-size: cover;
+}
+div.intro {
+	border: 10px double orange;
+	border-radius: 23px;
+	border-bottom: thick dotted #16947C;
+	padding: auto;
+	margin: auto;
+	width:200px;
+	height:100px;
+}
+h1, h2 {
+	font-size: 250%;
+	text-shadow: 5px 5px 3px orange;
+	background-color: rgba(60, 99, 107, 0.3);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav {
+	background-color: rgba(60, 99, 107, 0.3);
+	list-style-type: none;
+	margin: auto;
+	padding:auto;
+	border-top: 7px dotted #16947C;
+}
+
+nav a:visited {
+	color:grey;
+}
+
+header li {
+	display: inline-block;
+	margin-left:240px;
+	font-size:200%;
+	text-decoration: underline;
+	color:#777;
+	cursor: pointer;
+}
+header li:hover {
+	background-color: orange;
+}
+
+h3 {
+	font-size: 220%;
+	text-align: center;
+	color:orange;
+}
+h3:hover{
+	background-color: grey;
+	transition: 3s;
+}
+
+div.desc {
+  padding: 50px;
+  text-align: center;
+  }
+
+div li {
+  font-style: italic;
+  list-style: square outside;
+  font-size: 150%;
+}
+ div.gallery {
+	float:left;
+	border: 0.5px solid #ccc;
+	border-radius: 15px;
+	line-height: 30px;
+	white-space: nowrap;
+}
+
+ div.gallery img {
+	width:100%;
+	height:auto;
+	transition: 1s;
+}
+
+ div.gallery:hover {
+	border: 4px solid #777;
+}
+div.gallery img:hover {
+	transform: scale(1.1);
+}
+footer {
+	clear:both;
+}
